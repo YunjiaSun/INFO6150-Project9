@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background: rgb(248, 238, 224);
+  display: flex;
+}
+
+.links {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 40px;
+  color: white;
+}
+
+.navbar a {
+  color: #395992;
+  background-image: linear-gradient(to right, #5588bc, #92d0d9);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 60px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.navbar .links span {
+  margin-left: -50px;
+}
+
+.navbar a:hover {
+  font-size: 27px;
+  transition: 0.4s;
+}
